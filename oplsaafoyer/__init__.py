@@ -1,1 +1,1 @@
-from .oplsaafoyer import get_ff_path
+from .oplsaafoyer import get_forcefields

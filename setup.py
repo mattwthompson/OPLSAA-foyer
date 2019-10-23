@@ -10,7 +10,7 @@ setup(
     license="MIT",
     entry_points={
         "foyer.external_forcefields": [
-            "get_ff_path = oplsaafoyer.oplsaafoyer:get_ff_path"]
+            "get_forcefields = oplsaafoyer.oplsaafoyer:get_forcefields"]
     },
     packages=["oplsaafoyer"],
     zip_safe=False,
