@@ -9,7 +9,7 @@ setup(
     author_email="matt.thompson@vanderbilt.edu",
     license="MIT",
     entry_points={
-        "foyer.external_forcefields": [
+        "foyer.forcefields": [
             "get_forcefields = oplsaafoyer.oplsaafoyer:get_forcefields"]
     },
     packages=["oplsaafoyer"],
